@@ -1,0 +1,182 @@
+
+html,body{
+    background-color: white;
+    color: rgb(12, 3, 48);
+}
+p{
+    font-size: 18px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.navbar{
+    z-index: 9999;
+}
+/* down-arrow */
+.down-arrow{
+    /* Enabled for white mode */
+    border-radius: 50%;
+    background-color: black;
+    padding-top: 10px;
+
+/* till here */
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    bottom: 0px;
+    left: 50%;
+    z-index: 50;
+    animation: down-button 2s linear infinite ;
+}
+@keyframes down-button{
+    50%{ 
+        transform: translateY(10px);
+    }    
+} 
+/* End of down-arrow */
+
+.main-container{
+    padding:0 !important;
+}
+.color-dark{
+    color: #001E29;
+    display: inline-block;
+}
+.hero-col{
+    pointer-events: none;
+}
+.particles-js{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    overflow: hidden;
+}
+.blob{
+    /* position: relative; */
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;    
+}
+.svg-text{    
+    font-size: 7vw;
+    font-weight: 700;
+    /* font-family: monospace; */
+    font-family: 'Orbitron', sans-serif;
+    position: absolute;
+    left: 50%;
+    bottom:50%;
+    transform: translate(-50%,50%);
+    /* mix-blend-mode: difference;    Disabled just for white mode */
+}
+.content-discription-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mind Mastery Section   */
+
+.main-slanted-div{    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+    padding:0px !important;
+}
+.wave{
+    position: absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.mind-mastery-color{    
+    font-family: 'Cinzel Decorative', cursive;
+}
+.main-slanted-div::before{
+    position: absolute;;
+    background-color:rgba(10, 255, 120,0.7);
+    width: 100%;
+    height: 100%;
+    content: "";
+    top:0px;
+    bottom:0px;
+    right: 0px;
+    left: 0px;
+    z-index: -1;
+}
+.mind-mastery-color::after{
+    background:  url(../media/treeDoodlebear.png) repeat-x -250px bottom;
+    background-size: 3cm;
+    position: absolute;;
+    width: 300%;
+    height: 100%;
+    content: "";
+    top:0px;
+    bottom:0px;
+    right: 0px;
+    left: 0px;
+    -webkit-animation: bg-walk 100s infinite 0s forwards linear ;
+    -moz-animation: bg-walk 100s infinite 0s forwards linear ;
+    animation: bg-walk 100s infinite 0s forwards linear ;
+    z-index: -10;    
+}
+@-moz-keyframes bg-walk {
+    0%{margin-left: 0px; }
+    100%{ margin-left: -1000px;}
+}
+@-webkit-keyframes bg-walk {
+    0%{margin-left: 0px;}
+    100%{margin-left: -1000px;}
+}
+@keyframes bg-walk {
+    0%{margin-left: 0px;}
+    100%{margin-left: -1000px;}
+}
+
+.mm-content-container{
+    background-color:rgba(10, 255, 120,0.1);
+    border-top:2px solid grey ;
+    z-index: -1;    
+}
+.card{
+    margin-bottom: 20px;
+    border-radius: 2%;
+    width: 22rem;
+    box-shadow: 0 0 3px 0px #4ad128;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(6, 250, 250, 0.1);
+}
+.card:hover{
+    box-shadow: 0 0 2px 1px #4ad128 inset;
+}
+/* End of Mind mastery section */
+
+

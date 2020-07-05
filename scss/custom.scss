@@ -1,0 +1,41 @@
+//custome variables here..
+$enable-negative-margins:     true;
+
+$blue:    #0d6efd   ;
+$indigo:  #6610f2   ;
+$purple:  #6f42c1   ;
+$pink:    #d823ba   ;
+$red:     #EA2B1F   ;
+$orange:  #fd7e14   ;
+$yellow:  #F0C808   ;
+$green:   #28a745   ;
+$teal:    #0AFF78   ;
+$cyan:    #31AFD4   ;
+
+
+$primary:       $cyan ;
+$secondary:     #BDACC3 ;
+$success:       $teal ;
+$info:          #1EA896 ;
+$warning:       $yellow ;
+$danger:        $red ;
+$light:         #F8F6F2 ;
+$dark:          #001E29 ;
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer / 4,
+  2: $spacer / 2,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 6,
+  7: $spacer * 7,
+  8: $spacer * 8
+);
+
+$body-bg:                   $dark;
+$body-color:                $light;
+
+@import "../bootstrap/scss/bootstrap"
