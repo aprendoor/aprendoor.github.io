@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Bitter&family=Chelsea+Market&family=Cinzel+Decorative:wght@900&family=Montserrat+Subrayada:wght@700&family=Orbitron:wght@500&family=Righteous&family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Bitter&family=Chelsea+Market&family=Cinzel+Decorative:wght@900&family=Montserrat+Alternates:wght@500&family=Montserrat+Subrayada:wght@700&family=Montserrat:wght@500&family=Orbitron:wght@500&family=Righteous&family=Rubik&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/custom-bootstrap.css">
     <link rel="stylesheet" href="css/custom-style.css">
-    <script src="../Aprendoor/js/lottie-player.js"></script>
+    <script src="/js/lottie-player.js"></script>
     
     <title>Aprendoor</title>
 </head>
@@ -56,7 +56,7 @@
       
     <div class="row mx-0"> <!--  Main row -->
           <div class="down-arrow">
-            <img src="../Aprendoor/media/arrow-down.svg" alt="Page down arrow" >
+            <img src="/assets/img/arrow-down.svg" alt="Page down arrow" >
           </div>
           <div class="particles-js">
             <div id = "particles-js"></div>
@@ -149,14 +149,14 @@
     <div class="container-fluid mt-4 bg-light text-dark"> <!--Front ENd -->
         <div class="row">
             <div class="col " >   <!--First block-->
-              <lottie-player src="../Aprendoor/json/fox.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
+              <lottie-player src="/assets/json/fox.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
             </div>
             <div class="col content-discription-block">
               <h1>Mind Mastry</h1>
               <p>Here at aprendoor we help you to get the best out of your life and become more productive.
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
               </p>
-              <button type="button" class="btn btn-success btn-lg">Yes, I'm in</button>
+              <button type="button" href="mind_mastery.md" class="btn btn-success btn-lg">Yes, I'm in</button>
             </div>
 
         </div> <!--End of row-->
@@ -167,11 +167,11 @@
         <div class="row">
             <div class="col content-discription-block ">   <!--Second block-->
               <h1>Frontend Dexterity</h1>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+              <p>WLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
               <button type="button" class="btn btn-success btn-lg">Yes, I'm in</button>
             </div>
             <div class="col">
-              <lottie-player src="../Aprendoor/json/html-css-crane.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
+              <lottie-player src="/assets/json/html-css-crane.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
             </div>
 
         </div> <!--End of row-->
@@ -181,7 +181,7 @@
     <div class="container-fluid bg-light text-dark"> <!--Front ENd -->
         <div class="row">
             <div class="col ">    <!--Third block-->
-              <lottie-player src="../Aprendoor/json/articles.json"  background="transparent"  speed=".1"  loop  autoplay></lottie-player>
+              <lottie-player src="/assets/json/articles.json"  background="transparent"  speed=".1"  loop  autoplay></lottie-player>
             </div>
             <div class="col content-discription-block">
               <h1>Handcrafted Courses</h1>
@@ -215,9 +215,9 @@
     
     <!--js for particle bg-->
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2/particles.min.js"></script>
-    <script src="js/particle-custom.js"></script>
+    <script src="/js/particle-custom.js"></script>
     <!--Bootstrap and main Js -->
-    <script src="js/main.js"></script>
-    <script src="js/bootstrap.bundle.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/bootstrap.bundle.js"></script>
 </body>
 </html>

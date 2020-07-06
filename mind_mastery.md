@@ -74,7 +74,7 @@
                     <div class="container">
                       <div class="row ">
                         <div class="col-lg-3 content-discription-block">
-                          <img src="../Aprendoor/media/yoga.png" alt="" style="width: 200px ; height: 200px;">
+                          <img src="/assets/img/yoga.png" alt="" style="width: 200px ; height: 200px;">
                         </div>
                         <div class="col content-discription-block">
                           <h4 class="card-title">Meditation</h4>
@@ -94,7 +94,7 @@
                     <div class="container">
                       <div class="row ">
                         <div class="col-lg-3 content-discription-block">
-                          <img src="../Aprendoor/media/philosopher.png" alt="" style="width: 200px ; height: 200px;">
+                          <img src="/assets/img/philosopher.png" alt="" style="width: 200px ; height: 200px;">
                         </div>
                         <div class="col content-discription-block">
                           <h4 class="card-title">satoicism</h4>
@@ -107,7 +107,7 @@
                 </div>
                   <!-- <div class="col content-discription-block">
                     <div class="card card-category" style="width: 22rem;">
-                      <img src="../Aprendoor/media/yoga.png" class="card-img-top mt-3" alt="..." style="height:200;width: 200px;">
+                      <img src="../aprendoor.github.io/assets/img/yoga.png" class="card-img-top mt-3" alt="..." style="height:200;width: 200px;">
                       <div class="card-body">
                         <h4 class="card-title text-danger ">Meditation</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -118,7 +118,7 @@
 
                   <div class="col content-discription-block">
                     <div class="card card-category" style="width: 22rem;">
-                      <img src="../Aprendoor/media/philosopher.png" class="card-img-top" alt="..." style="height:220;width: 220px;">
+                      <img src="../aprendoor.github.io/assets/img/philosopher.png" class="card-img-top" alt="..." style="height:220;width: 220px;">
                       <div class="card-body">
                         <h4 class="card-title">Stoicism</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

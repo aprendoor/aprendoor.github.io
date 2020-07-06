@@ -137,8 +137,8 @@ h2,h3,h4,h5,h6{
 }
 
 .mind-mastery-color::after{
-    /* background:  url(../media/treeDoodlebear.png) no-repeat 70% bottom; */
-    background: url(../media/squiggles\ sprat.png);
+    /* background:  url(../assets/img/treeDoodlebear.png) no-repeat 70% bottom; */
+    background: url(../assets/img/squiggles\ sprat.png);
     background-size: 10cm;
     position: absolute;;
     width: 100%;
@@ -170,7 +170,7 @@ h2,h3,h4,h5,h6{
 
 .mm-content-container{
     
-    background: linear-gradient(-45deg,rgba(74, 209, 40,.5),rgba(255,255,255,.4)),url(/Aprendoor/media/squiggles\ yellow-ribbon.png) left bottom  no-repeat,url(/Aprendoor/media/miroodles\ cloud-melon.png) right top no-repeat,url(/Aprendoor/media/squiggles\ sprat.png) center center no-repeat,url(/Aprendoor/media/treeDoodlebird.png) bottom right no-repeat,url(/Aprendoor/media/squiggles.png) top left no-repeat;
+    background: linear-gradient(-45deg,rgba(74, 209, 40,.5),rgba(255,255,255,.4)),url(/../assets/img/squiggles\ yellow-ribbon.png) left bottom  no-repeat,url(/../assets/img/miroodles\ cloud-melon.png) right top no-repeat,url(/../assets/img/squiggles\ sprat.png) center center no-repeat,url(/../assets/img/treeDoodlebird.png) bottom right no-repeat,url(/../assets/img/squiggles.png) top left no-repeat;
     background-attachment: fixed;
     background-size: cover,20vw,20vw,20vw,20vw,20vw;
     z-index: -1;    
