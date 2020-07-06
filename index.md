@@ -156,7 +156,7 @@
               <p>Here at aprendoor we help you to get the best out of your life and become more productive.
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
               </p>
-              <button type="button" href="mind_mastery.md" class="btn btn-success btn-lg">Yes, I'm in</button>
+              <button type="button" class="btn btn-success btn-lg">Yes, I'm in</button>
             </div>
 
         </div> <!--End of row-->
